@@ -1,0 +1,14 @@
+package dois10;
+
+public class Cachorro extends Polimorfismo {
+	
+	public Cachorro	(String nome, String sexo, String raca) {
+		super(nome,sexo,raca);
+	}
+	
+	@Override
+	public void emitirSom () {
+		System.out.println("O cachorro latiu para mim.");
+	}
+
+}
