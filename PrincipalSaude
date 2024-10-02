@@ -1,0 +1,18 @@
+package dois10v3;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		        
+		 Medico medico = new Medico("Dr. Juliano", "Cardiologia", 3000);
+         medico.agendarConsulta();
+		        
+		 Dentista dentista = new Dentista("Dra. Rudrian", "Odontologia", 1500);
+		 dentista.agendarConsulta();
+		                
+		 Fisioterapeuta fisioterapeuta = new Fisioterapeuta("Ricardinho", "Reabilitação", 1000);
+		 fisioterapeuta.agendarConsulta();
+		    }	 
+	}
+
+
