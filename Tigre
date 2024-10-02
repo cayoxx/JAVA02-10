@@ -1,0 +1,14 @@
+package dois10;
+
+public class Tigre extends Polimorfismo {
+	
+	public Tigre(String nome, String sexo, String raca) {
+		super(nome,sexo,raca);
+	}
+	
+	@Override
+	public void emitirSom () {
+		System.out.println("O tigre está dormindo.");
+	}
+
+}
