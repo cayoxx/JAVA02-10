@@ -1,0 +1,24 @@
+package dois10v2;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		Funcionario fun = new Funcionario(1, "Maritaca", "15 99876-5432", 123, "Rua93, Ipatinga");
+		System.out.println(fun.getNome());
+		System.out.println(fun.calcularSalario(50000.00, 1000));
+		
+		Horista hor = new Horista(2, "Pedro", "15 99234-5678", 124, "Rua94, Sorocaba");
+		System.out.println(hor.getNome());
+		System.out.println(hor.calcularSalario(70000.00, 1000));
+		
+        Jornada jor = new Jornada(5, "Garro+3", "923443556", 3, "Rua Freire");
+        System.out.println(jor.getNome());
+    	System.out.println(jor.calcularSalario(1000.00, 10));
+ 
+        ConsultorPj con = new ConsultorPj(2, "Nicolas", "99865268", 4, "Rua Fernandes");
+        System.out.println(con.getNome());
+    	System.out.println(con.calcularSalario(100.00, 10000));
+	}
+
+}
