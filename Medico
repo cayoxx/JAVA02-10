@@ -1,0 +1,23 @@
+package dois10v3;
+
+public class Medico extends ProfissionalSaude {
+	
+	private String crm;
+	
+	public Medico(String nome, String especialidade, int valorConsulta) {
+		super(nome, especialidade, valorConsulta);
+		this.crm=crm;
+	}
+
+	public String getCrm() {
+		return crm;
+	}
+
+	public void setCrm(String crm) {
+		this.crm = crm;
+	}
+	
+
+	
+
+}
