@@ -1,0 +1,21 @@
+package dois10;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		Lobo lobo = new Lobo("Lucas", "M", "Qualquer");
+		lobo.emitirSom();
+		Leao leao = new Leao("Rudrian", "F", "Qualquer");
+		leao.emitirSom();
+		Tigre tigre = new Tigre("Geromel", "M", "Qualquer");
+		tigre.emitirSom();
+		Gato gato = new Gato("Miau", "F", "Qualquer");
+		gato.emitirSom();
+		Cachorro cachorro = new Cachorro("Tobi", "M", "Qualquer");
+		cachorro.emitirSom();
+		
+	}
+
+}
+  
