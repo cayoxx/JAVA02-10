@@ -1,0 +1,21 @@
+package dois10v3;
+
+public class Dentista extends ProfissionalSaude {
+	
+	private String cro;
+	
+	public Dentista(String nome, String especialidade, int valorConsulta) {
+		super(nome, especialidade, valorConsulta);
+		this.cro=cro;
+	}
+
+	public String getCro() {
+		return cro;
+	}
+
+	public void setCro(String cro) {
+		this.cro = cro;
+	}
+	
+
+}
